@@ -9,7 +9,7 @@ function Goroutes() {
 
     return (
       <BrowserRouter>
-        <Route path="/Home" component={Authpost} />
+        <Route exact path="/Home" component={Authpost} />
         <Route path="/todo" component={Todo} />
         <Route path="/create" component={Createpost}/>
         <Route  path="/user/:id" component={Userlist} />
